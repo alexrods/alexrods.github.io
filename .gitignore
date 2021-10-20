@@ -1,6 +1,7 @@
 # images
 *.jpg
 *.png
+/images
 
 # Vim
 *~
