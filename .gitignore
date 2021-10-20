@@ -1,3 +1,7 @@
+# images
+*.jpg
+*.png
+
 # Vim
 *~
 *.sw[p_]
