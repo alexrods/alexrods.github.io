@@ -1,12 +1,12 @@
-![](/images/tanh_blog/tanh.png)
->tanh(x/a)
 
 ## In this blog i´ll show you how i use tanh scale  for reduce the error of linear regression models
+ 
+![](https://drive.google.com/uc?id=1AHhVOoTbKZwU_uwDzG1xKG8sJJTr194p)
 
 I prove this scale in two projects
 - [California housing prices](https://www.kaggle.com/camnugent/california-housing-prices) from kaggle
-and
-- León housing rents prices, i make this dataset.
+
+- León housing rents prices, i make this dataset [here](https://github.com/alexrods/Housing_scrapperML)'s the project.
 
 In this two cases i´ve better results than apply linear regression model with other scale mathods. 
 
@@ -23,10 +23,11 @@ When the denominator is bigger, the function tends to be most smooth. In this ca
 First take a look of the datasets distribution
 
 > California Housing distribution
-![](/images/tanh_blog/california_dist.png)
+
+![](https://drive.google.com/uc?id=1NdoVL_UaYw6DyLyRJJMXv2n35eQRVgsO)
 
 > León Housing distribution
-![](/images/tanh_blog/leon_dist.png)
+![](https://drive.google.com/uc?id=1JkIZRNhwTntdjIAev0dM4yr4awgeL2bj)
 
 In both cases can see the  distribution concentrate the mean at left and had a long tail at right.
 
@@ -58,10 +59,10 @@ the feature data, in this way i get the best results.
 Later scale both dataset:
 
 > California housing scaled
-![](/images/tanh_blog/california_dist_scaled.png)
+![](https://drive.google.com/uc?id=1gAYDJto72K4OkVVDbNL4oxMFTP_LovDG)
 
 > León housing scaled
-![](/images/tanh_blog/leon_dist_scaled.png)
+![](https://drive.google.com/uc?id=1yXZ8t3IuZ1uFu3_X2XzJBqZP1dUCA6Tl)
 
 The result a distribution with values between 0 to 1, but looks like a half to normal distribution in California's dataset, in León's dataset don't looks a shape of distribution knewed, but the size of california's dataset is bigger than León's dataset so... its ok.
 
@@ -92,7 +93,7 @@ And to compare scalers, i'll use this different methods:
 And rescaling **tanh scale** result look at the rmse of each model
 
 > California housing results
-![](/images/tanh_blog/california_results_rescaledd.png)
+![](https://drive.google.com/uc?id=1wePpBsrgNkhSWsJsjDkB_EP3KnRBSNwr)
 
 
 #### Now let's compare with León housing results
@@ -100,7 +101,8 @@ And rescaling **tanh scale** result look at the rmse of each model
 Rescaling tanh scale results i get the next rmse
 
 > León housing results
-![](/images/tanh_blog/leon_results_rescaled.png)
+![](https://drive.google.com/uc?id=1fHlD6ghq5VAJ7yuJzQdSe8wCxx9qbrQU)
+
 
 
 Looking the results it can be seen that **tanh scale** give the best results.

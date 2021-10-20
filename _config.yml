@@ -12,11 +12,11 @@
 
 theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" #"air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" #"air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Personal Page"
+title                    : "Miguel Alejandro Rodríguez Sánchez Personal Page"
 title_separator          : "-"
 subtitle                 : #
 name                     : "alexrods"
@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Alejandro Rodríguez Sánchez"
+  name             : "Miguel Alejandro Rodríguez Sánchez"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science, Machine Learning, Physics"
   location         : "México"
