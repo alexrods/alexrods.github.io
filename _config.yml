@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dirt" #"air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Miguel Alejandro Rodríguez Sánchez Personal Page"
+title                    : "Alexrods"
 title_separator          : "-"
-subtitle                 : #
-name                     : "alexrods"
+subtitle                 : "Personal Page"
+name                     : #"alexrods"
 description              : "Personal Portfolio"
 url                      : "https://alexrods.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -292,4 +292,4 @@ defaults:
       read_time: true
       comments: # true
       share: true
-      related: true
+      related: 

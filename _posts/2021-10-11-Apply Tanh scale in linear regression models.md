@@ -34,22 +34,25 @@ In both cases can see the  distribution concentrate the mean at left and had a l
 Now i proceed to scale the data. According to the scalation formula:
 For this process just need 
 
+{% highlight python %}
+import numpy as np
 
-    import numpy as np
+# scale train data
+for col in X_train_scaled.columns:
+    X_train_scaled[col] = np.tanh(X_train_scaled[col] / np.mean(X_train_scaled[col]))
 
-    #scale train data
+y_train_scaled = np.tanh(y_train_scaled / np.mean(y_train_scaled)) 
 
-    for col in X_train_scaled.columns:
-        X_train_scaled[col] = np.tanh(X_train_scaled[col] / np.mean(X_train_scaled[col]))
+# scale test data
+for col in X_test_scaled.columns:
+    X_test_scaled[col] = np.tanh(X_test_scaled[col] / np.mean(X_test_scaled[col]))
 
-    y_train_scaled = np.tanh(y_train_scaled / np.mean(y_train_scaled)) 
+y_test_scaled = np.tanh(y_test_scaled / np.mean(y_test_scaled)) 
 
+# X values refers to feature columns
+# y values refers to target columns
 
-    # scale test data
-
-    for col in X_test_scaled.columns:
-        X_test_scaled[col] = np.tanh(X_test_scaled[col] / np.mean(X_test_scaled[col]))
-    y_test_scaled = np.tanh(y_test_scaled / np.mean(y_test_scaled)) 
+{% endhighlight %}
 
 I scale train and test in different sets for don't to exchange information between they.
 
