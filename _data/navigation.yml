@@ -1,7 +1,9 @@
 # main links
 main:
+  - title: "ke ay de cnar"
+    url: /ke ay de cnar/ 
   - title: "About"
-    url: /_pages/about/
+    url: /about/
   - title: "Portfolio"
     url: /portfolio/ 
   #- title: "Quick-Start Guide"
