@@ -110,5 +110,11 @@ Rescaling tanh scale results i get the next rmse
 
 Looking the results it can be seen that **tanh scale** give the best results.
 
+Complete Notebooks
+
+- [León Housing rent prices Notebook](https://github.com/alexrods/Leon_Housing_Rent_prices/blob/main/Le%C3%B3n_Housing_Rent_Prices_Linear_Regression_Kmeans.ipynb)
+
+- [California Housing prices Notebook](https://github.com/alexrods/California_Housing_prices/blob/main/california_housing.ipynb)
+
 
 
