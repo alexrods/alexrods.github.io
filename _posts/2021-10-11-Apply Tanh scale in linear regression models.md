@@ -1,4 +1,6 @@
+---
 
+---
 ## In this blog i´ll show you how i use tanh scale  for reduce the error of linear regression models
  
 ![](https://drive.google.com/uc?id=1AHhVOoTbKZwU_uwDzG1xKG8sJJTr194p)
@@ -14,8 +16,8 @@ In this two cases i´ve better results than apply linear regression model with o
 
 For scale i use the next form of **tanh function**:
 
-$$
-featureScaled = \tanh\left(\frac{feature}{mean(feature)} \right)
+$$ 
+FeatureScaled = \tanh\left(\frac{feature}{mean(feature)} \right) 
 $$
 
 When the denominator is bigger, the function tends to be most smooth. In this cases the outliers helps to increase the mean value and smooth the curve.
